@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url("./assests/bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#canvas{
+ border: 2px solid brown;
+ max-width: 100%;
+ max-height: 100%;
+ background-image: url("./assests/bg1.gif");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+#drone , #missile, #explosion{
+    display: none;
+}
+.holder{
+    border: 1px solid white;
+    width: 700px;
+    max-width: 700px;
+    color: aliceblue;
+    display: flex;
+  justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+#report, #place{
+    width: 10rem;
+    font-size: 20px;
+    background-color: orange;
+}
